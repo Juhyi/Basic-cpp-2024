@@ -19,7 +19,7 @@ void showHuman(Human h)
 int main()
 {
 	int a;
-	human h1 = { "홍길동", 50, "의적" };		//Human 타입의 변수를 선언하고 초기화를 시킨다.
+	Human h1 = { "홍길동", 50, "의적" };		//Human 타입의 변수를 선언하고 초기화를 시킨다.
 	showHuman(h1);
 
 	return 0;

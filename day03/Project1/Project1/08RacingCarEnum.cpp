@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-namespace CAR_CONST			//// CAR_CONST의 이름의 namespace 공간에  구조체 Car이 사용할 상수들 저장
+namespace CAR_CONST			//CAR_CONST의 이름의 namespace 공간에  구조체 Car이 사용할 상수들 저장
 {
-	enum
-	{
-		ID_LEN = 20,
-		MAX_SPD = 200,
-		FUEL_STEP = 2,
-		ACC_STEP = 10,
-		BRK_STEP =10
+	enum MyEnum				// 열거형 {}, MyEnum이라는 이름을 가진 enum 자료형
+	{	
+		ID_LEN		= 20,  // 대문자로 상수 선언
+		MAX_SPD		= 200,
+		FUEL_STEP	= 2,
+		ACC_STEP	= 10,
+		BRK_STEP	= 10
 
 	};
 }
@@ -56,9 +56,9 @@ struct Car				// 구조체 Car
 
 int main(void)
 {
-	Car run99 = { "run99", 100, 0 };
-	run99.Accel();
-	run99.Accel();
+	Car run99 = { "run99", 100, 0 };	//new 키워드 사용 X => 스택영역에 저장
+	run99.Accel();		// 98, 10
+	run99.Accel();		// 96, 20
 	run99.showCarState();
 	run99.Break();
 	run99.showCarState();

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -23,8 +24,7 @@ int main(void) {
     cout << " case 1: ";
     Simple* sp1 = new Simple; // 동적으로 new 연산자를 통해 Simple 객체 생성
     //Aaa *ap = new Aaa;
-
-
+  
     cout << " case 2: ";
     Simple* sp2 = (Simple*)malloc(sizeof(Simple) * 1); // malloc 함수로 힙 영역에 메모리 할당
     // 스택 영역에 있는 포인터 변수 sp2를 생성해서 heap 영역의 주소값 저장

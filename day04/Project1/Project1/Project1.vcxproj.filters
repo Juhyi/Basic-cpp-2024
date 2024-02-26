@@ -15,57 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01ConstTest.cpp">
+    <ClCompile Include="01Class.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="02MemMalFree.cpp">
+    <ClCompile Include="02FruitSaleSim1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03NewDelete.cpp">
+    <ClCompile Include="03RectangleFault.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="04NewObject.cpp">
+    <ClCompile Include="04Point.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="05Struture.cpp">
+    <ClCompile Include="05Rectangle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="06Struture2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="07Struture3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="08RacingCarEnum.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="09RacingCarOuterFunc.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10RacingCarClassBase.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11Car.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11RacingMain.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12FileDivi.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12FileDivi2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12FileDiviMain.cpp">
+    <ClCompile Include="05RectangleFaultFind.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="11Car.h">
+    <ClInclude Include="05Rectangle.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="12FileDivi.h">
+    <ClInclude Include="04Point.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
