@@ -60,12 +60,12 @@
     <ClCompile Include="12FileDiviMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12Human.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="11Car.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="12FileDivi.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

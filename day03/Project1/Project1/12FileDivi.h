@@ -6,11 +6,11 @@
 
 class Hong {
 public:
-    Hong(const std::string& name, int age); // 생성자
+    Hong(const char *name, int age, int year); // 생성자
     void ShowInfo(); // 정보 출력 메서드
 
 private:
-    std::string name;
+    char name;
     int age;
 };
 
