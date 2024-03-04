@@ -5,7 +5,7 @@ class First
 {
 public:
 	virtual void MyFunc()    // Myfunc() 함수 virtural로 선언, 이후 코드의 Myfunc() 함수는 virtual을 붙이지 않아도 자동으로 가상함수가 됨
-	{																					// 하지만 붙이는게 좋음	
+	{																					
 		cout << "FirstFunc" << endl;
 	}
 };

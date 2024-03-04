@@ -38,8 +38,8 @@ int main(void)
 	// 객체포인터 타입을 기준으로 접근 범위가 결정됨.
 	// 오버라이딩된 경우는 부모것은 자식것으로 가려짐.
 	fptr->MyFunc();  // First 클래스의 메서드
-	sptr->MyFunc();  // Second 클래스의 메서드, 부모것이 가려져서 
-	tptr->MyFunc();  // Third 클래스의 메서드, 부모것이 가려져서
+	sptr->MyFunc();  // Second 클래스의 메서드, 부모것이 가려지기 때문에 
+	tptr->MyFunc();  // Third 클래스의 메서드, 부모것이 가려지기 때문에
 
 
 	sptr->First::MyFunc();  // 부모 클래스의 메서드에 접근 하고 싶으면 First:: 로 표현해주어서 접근한다. 
